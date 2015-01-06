@@ -112,6 +112,8 @@ nav a:hover {
 
 .border_bottom {
   border-bottom: 4px double #CCCC9E;
+  width: 75%;
+  margin-left: 200px;
 }
 
 /*******************************
