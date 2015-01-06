@@ -1,0 +1,25 @@
+img {
+  border-radius: 10%;
+  width: 400px;
+}
+
+.photo_text {
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+nav li {
+  font-size: 12px;
+  padding: 2px;
+  margin: 0px;
+}
+
+nav ul {
+  margin-top: -25px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
