@@ -11,11 +11,15 @@ img, .photo_text {
   margin-right: 15%;
 }
 
+.aubie {
+  width: 100%;
+}
+
 /*******************************
 TINY MEDIA QUERY
 ********************************/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
 
   h1 {
     font-size: 32px;
