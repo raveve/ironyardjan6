@@ -12,10 +12,54 @@ img, .photo_text {
 }
 
 /*******************************
-300PX MEDIA QUERY
+TINY MEDIA QUERY
 ********************************/
 
-@media screen and (min-width: 300px) and
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  nav ul {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img, .photo_text {
+    width: 80%;
+  }
+
+  .photo_box, img, .photos p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .photos p {
+    font-size: 12px;
+  }
+
+  .photos {
+    
+  }
+
+}
+
+/*******************************
+320PX MEDIA QUERY
+********************************/
+
+@media screen and (min-width: 320px) and
 (max-width: 479px) {
   h1 {
     font-size: 32px;
