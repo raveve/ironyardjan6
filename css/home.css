@@ -1,7 +1,75 @@
+/*******************************
+HOME PAGE ONE COLUMN LAYOUT MOD
+********************************/
+
 img, .photo_text {
-  width: 750px;
+  width: 70%;
 }
 
-.photo_box {
-  margin-left: 320px;
+.photo_box, img, .photos p {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*******************************
+300PX MEDIA QUERY
+********************************/
+
+@media screen and (min-width: 300px) and
+(max-width: 479px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  nav ul {
+    font-size: 14px;
+  }
+}
+
+/*******************************
+480PX MEDIA QUERY
+********************************/
+
+@media screen and (min-width: 480px) and
+(max-width: 599px) {
+
+}
+
+/*******************************
+600PX MEDIA QUERY
+********************************/
+
+@media screen and (min-width: 600px) and
+(max-width: 767px) {
+
+}
+
+/*******************************
+768PX MEDIA QUERY
+********************************/
+
+@media screen and (min-width: 768px) and
+(max-width: 991px) {
+
+}
+
+/*******************************
+992PX MEDIA QUERY
+********************************/
+
+@media screen and (min-width: 992px) and
+(max-width: 1281px){
+
+}
+
+/*******************************
+1382PX MEDIA QUERY
+********************************/
+
+@media screen and (min-width: 1382px) {
+
 }

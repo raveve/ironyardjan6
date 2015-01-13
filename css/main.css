@@ -8,11 +8,6 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-h2, p {
-  margin-left: 200px;
-  margin-right: 150px;
-}
-
 h2 {
   font-size: 22px;
   text-align: center;
@@ -23,6 +18,10 @@ p {
   text-align: left;
   font-size: 18px;
   line-height: 1.2;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 20px;
 }
 
 a {
@@ -77,7 +76,7 @@ h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   padding: 10px;
-  margin: 20px 10px 0px 50px;
+  margin: 0 auto;
 }
 
 
@@ -89,6 +88,8 @@ nav ul {
   text-align: center;
   font-size: 28px;
   font-family: 'Pacifico', cursive;
+  margin: 0 auto;
+  padding: 0;
 }
 
 nav li {
@@ -112,18 +113,30 @@ nav a:hover {
 
 .border_bottom {
   border-bottom: 4px double #CCCC9E;
-  width: 75%;
-  margin-left: 200px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*******************************
 FOOTER
 ********************************/
 
+footer {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
 footer p {
   color: #CCCC9F;
   font-style: italic;
   font-size: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
-  margin-top: 100px;
 }
