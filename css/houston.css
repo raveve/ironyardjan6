@@ -42,11 +42,80 @@ nav {
 }
 
 /*******************************
+TINY MEDIA QUERY
+********************************/
+
+@media screen and (max-width: 319px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .photo_text {
+    width: 80%;
+  }
+
+  .photo_text p {
+    font-size: 14px;
+  }
+
+  nav {
+    margin-top: 50px;
+  }
+
+  nav ul {
+    font-size: 20px;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+}
+
+/*******************************
 300PX MEDIA QUERY
 ********************************/
 
 @media screen and (min-width: 300px) and
 (max-width: 479px) {
+
+  h1 {
+    font-size: 54px;
+  }
+
+  .photo_box {
+    margin-left: 25%;
+  }
+
+  .photo_text {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .photo_text p {
+    font-size: 16px;
+  }
+
+  nav {
+    margin-top: 50px;
+  }
+
+  nav ul {
+    font-size: 22px;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
 
 }
 
@@ -57,6 +126,40 @@ nav {
 @media screen and (min-width: 480px) and
 (max-width: 599px) {
 
+  h1 {
+    font-size: 56px;
+  }
+
+  .photo_box {
+    margin-left: 32%;
+  }
+
+  .photo_text {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .photo_text p {
+    font-size: 16px;
+  }
+
+  nav {
+    margin-top: 50px;
+  }
+
+  nav ul {
+    font-size: 24px;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
 }
 
 /*******************************
@@ -66,6 +169,40 @@ nav {
 @media screen and (min-width: 600px) and
 (max-width: 767px) {
 
+  h1 {
+    font-size: 58px;
+  }
+
+  .photo_box {
+    margin-left: 32%;
+  }
+
+  .photo_text {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .photo_text p {
+    font-size: 18px;
+  }
+
+  nav {
+    margin-top: 50px;
+  }
+
+  nav ul {
+    font-size: 24px;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
 }
 
 /*******************************
@@ -73,23 +210,37 @@ nav {
 ********************************/
 
 @media screen and (min-width: 768px) and
-(max-width: 991px) {
+(max-width: 799px) {
+
+  .houston-text {
+    margin-left: 10%;
+  }
 
 }
 
 /*******************************
-992PX MEDIA QUERY
+800PX MEDIA QUERY
 ********************************/
 
-@media screen and (min-width: 992px) and
-(max-width: 1281px){
+@media screen and (min-width: 800px) and
+(max-width: 1025px){
+
+  .houston-text {
+    margin-left: 5%;
+  }
+
 
 }
 
 /*******************************
-1382PX MEDIA QUERY
+1026PX MEDIA QUERY
 ********************************/
 
-@media screen and (min-width: 1382px) {
+@media screen and (min-width: 1026px) {
 
+  .photo_box {
+    margin-left: 15%;
+    margin-right: 10%;
+    max-width: 80%;
+  }
 }
