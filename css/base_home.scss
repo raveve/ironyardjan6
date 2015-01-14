@@ -92,27 +92,28 @@ h1 {
 NAVIGATION
 ********************************/
 
-nav ul {
-  text-align: center;
-  font-size: 28px;
-  font-family: $header-font;
-  margin: 0 auto;
-  padding: 0;
-}
+nav {
+  ul {
+    text-align: center;
+    font-size: 28px;
+    font-family: $header-font;
+    margin: 0 auto;
+    padding: 0;
+  }
 
-nav li {
-  display: inline;
-  padding: 20px;
+  li {
+    display: inline;
+    padding: 20px;
+  }
 
-}
+  a {
+    color: $rock-blue;
+    text-decoration: none;
+  }
 
-nav a {
-  color: $rock-blue;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: $gin-fizz;
+  a:hover {
+    color: $gin-fizz;
+  }
 }
 
 .current_link a {
@@ -177,12 +178,14 @@ TINY MEDIA QUERY
     font-size: 32px;
   }
 
-  nav li {
-    padding: 5px;
-  }
+  nav {
+    li {
+      padding: 5px;
+    }
 
-  nav ul {
-    font-size: 14px;
+    ul {
+      font-size: 14px;
+    }
   }
 
   h2 {
@@ -219,12 +222,14 @@ TINY MEDIA QUERY
     font-size: 38px;
   }
 
-  nav li {
+  nav {
+    li {
     padding: 5px;
-  }
+    }
 
-  nav ul {
+    ul {
     font-size: 16px;
+    }
   }
 
   h2 {
@@ -260,11 +265,17 @@ TINY MEDIA QUERY
     font-size: 40px;
   }
 
-  nav li {
-    padding: 5px;
+  nav {
+    li {
+      padding: 5px;
+    }
+
+    ul {
+      font-size: 18px;
+    }
   }
 
-  nav ul {
+  ul {
     font-size: 18px;
   }
 
@@ -302,13 +313,16 @@ TINY MEDIA QUERY
     font-size: 44px;
   }
 
-  nav li {
-    padding: 5px;
+  nav {
+    li {
+      padding: 5px;
+    }
+    
+    ul {
+      font-size: 20px;
+    }
   }
 
-  nav ul {
-    font-size: 20px;
-  }
 
   h2 {
     font-size: 22px;

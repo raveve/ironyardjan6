@@ -73,15 +73,12 @@ nav ul {
   font-family: 'Pacifico', cursive;
   margin: 0 auto;
   padding: 0; }
-
 nav li {
   display: inline;
   padding: 20px; }
-
 nav a {
   color: #9FB4CC;
   text-decoration: none; }
-
 nav a:hover {
   color: #FFF8E3; }
 
@@ -179,6 +176,8 @@ TINY MEDIA QUERY
   nav li {
     padding: 5px; }
   nav ul {
+    font-size: 18px; }
+  ul {
     font-size: 18px; }
   h2 {
     font-size: 22px; }

@@ -73,15 +73,12 @@ nav ul {
   font-family: 'Pacifico', cursive;
   margin: 0 auto;
   padding: 0; }
-
 nav li {
   display: inline;
   padding: 20px; }
-
 nav a {
   color: #9FB4CC;
   text-decoration: none; }
-
 nav a:hover {
   color: #FFF8E3; }
 

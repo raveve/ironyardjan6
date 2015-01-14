@@ -92,27 +92,29 @@ h1 {
 NAVIGATION
 ********************************/
 
-nav ul {
-  text-align: center;
-  font-size: 28px;
-  font-family: $header-font;
-  margin: 0 auto;
-  padding: 0;
-}
+nav {
 
-nav li {
-  display: inline;
-  padding: 20px;
+  ul {
+    text-align: center;
+    font-size: 28px;
+    font-family: $header-font;
+    margin: 0 auto;
+    padding: 0;
+  }
 
-}
+  li {
+    display: inline;
+    padding: 20px;
+  }
 
-nav a {
-  color: $rock-blue;
-  text-decoration: none;
-}
+  a {
+    color: $rock-blue;
+    text-decoration: none;
+  }
 
-nav a:hover {
-  color: $gin-fizz;
+  a:hover {
+    color: $gin-fizz;
+  }
 }
 
 .current_link a {
@@ -213,12 +215,14 @@ TINY MEDIA QUERY
     margin-top: 50px;
   }
 
-  nav ul {
-    font-size: 20px;
-  }
+  nav {
+    ul {
+      font-size: 20px;
+    }
 
-  nav li {
-    padding: 5px;
+    li {
+      padding: 5px;
+    }
   }
 
   footer p {
@@ -256,12 +260,14 @@ TINY MEDIA QUERY
     margin-top: 50px;
   }
 
-  nav ul {
-    font-size: 22px;
-  }
+  nav {
+    ul {
+      font-size: 22px;
+    }
 
-  nav li {
-    padding: 5px;
+    li {
+      padding: 5px;
+    }
   }
 
   footer p {
@@ -299,12 +305,14 @@ TINY MEDIA QUERY
     margin-top: 50px;
   }
 
-  nav ul {
-    font-size: 24px;
-  }
+  nav {
+    ul {
+      font-size: 24px;
+    }
 
-  nav li {
-    padding: 5px;
+    li {
+      padding: 5px;
+    }
   }
 
   footer p {
@@ -342,12 +350,14 @@ TINY MEDIA QUERY
     margin-top: 50px;
   }
 
-  nav ul {
-    font-size: 24px;
-  }
+  nav {
+    ul {
+      font-size: 24px;
+    }
 
-  nav li {
-    padding: 5px;
+    li {
+      padding: 5px;
+    }
   }
 
   footer p {

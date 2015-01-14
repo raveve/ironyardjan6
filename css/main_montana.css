@@ -73,15 +73,12 @@ nav ul {
   font-family: 'Pacifico', cursive;
   margin: 0 auto;
   padding: 0; }
-
 nav li {
   display: inline;
   padding: 20px; }
-
 nav a {
   color: #9FB4CC;
   text-decoration: none; }
-
 nav a:hover {
   color: #FFF8E3; }
 
@@ -149,10 +146,10 @@ TINY MEDIA QUERY
     font-size: 32px; }
   nav li {
     padding: 5px; }
-  nav {
-    margin-top: 50px; }
   nav ul {
     font-size: 16px; }
+  nav {
+    margin-top: 50px; }
   h2 {
     font-size: 18px; }
   img, .photos, .photo_text {
@@ -173,10 +170,10 @@ TINY MEDIA QUERY
     font-size: 34px; }
   nav li {
     padding: 5px; }
-  nav {
-    margin-top: 50px; }
   nav ul {
     font-size: 20px; }
+  nav {
+    margin-top: 50px; }
   h2 {
     font-size: 18px; }
   img, .photos, .photo_text {
@@ -197,10 +194,10 @@ TINY MEDIA QUERY
     font-size: 40px; }
   nav li {
     padding: 5px; }
-  nav {
-    margin-top: 50px; }
   nav ul {
     font-size: 22px; }
+  nav {
+    margin-top: 50px; }
   h2 {
     font-size: 20px; }
   img, .photos, .photo_text {
@@ -221,10 +218,10 @@ TINY MEDIA QUERY
     font-size: 44px; }
   nav li {
     padding: 5px; }
-  nav {
-    margin-top: 50px; }
   nav ul {
     font-size: 22px; }
+  nav {
+    margin-top: 50px; }
   h2 {
     font-size: 22px; }
   img, .photos, .photo_text {
@@ -245,10 +242,10 @@ TINY MEDIA QUERY
     font-size: 48px; }
   nav li {
     padding: 5px; }
-  nav {
-    margin-top: 50px; }
   nav ul {
     font-size: 24px; }
+  nav {
+    margin-top: 50px; }
   h2 {
     font-size: 26px; }
   img, .photos, .photo_text {

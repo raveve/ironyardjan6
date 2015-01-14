@@ -77,11 +77,9 @@ nav ul {
 nav li {
   display: inline;
   padding: 20px; }
-
 nav a {
   color: #9FB4CC;
   text-decoration: none; }
-
 nav a:hover {
   color: #FFF8E3; }
 
@@ -147,7 +145,6 @@ nav li {
   font-size: 12px;
   padding: 2px;
   margin: 0px; }
-
 nav ul {
   margin-top: -25px;
   margin-left: 0px;
@@ -161,11 +158,11 @@ TINY MEDIA QUERY
     font-size: 24px; }
   nav li {
     padding: 1px; }
+  nav ul {
+    font-size: 16px; }
   nav {
     margin-top: 10px;
     margin-bottom: 10px; }
-  nav ul {
-    font-size: 16px; }
   h2 {
     font-size: 18px; }
   img, .photos, .photo_text {
@@ -185,11 +182,11 @@ TINY MEDIA QUERY
     font-size: 24px; }
   nav li {
     padding: 1px; }
+  nav ul {
+    font-size: 18px; }
   nav {
     margin-top: 15px;
     margin-bottom: 15px; }
-  nav ul {
-    font-size: 18px; }
   h2 {
     font-size: 20px; }
   img, .photos, .photo_text {
@@ -209,11 +206,11 @@ TINY MEDIA QUERY
     font-size: 32px; }
   nav li {
     padding: 2px; }
+  nav ul {
+    font-size: 24px; }
   nav {
     margin-top: 15px;
     margin-bottom: 15px; }
-  nav ul {
-    font-size: 24px; }
   h2 {
     font-size: 22px; }
   img, .photos, .photo_text {
@@ -233,11 +230,11 @@ TINY MEDIA QUERY
     font-size: 26px; }
   nav li {
     padding: 2px; }
+  nav ul {
+    font-size: 20px; }
   nav {
     margin-top: 15px;
     margin-bottom: 15px; }
-  nav ul {
-    font-size: 20px; }
   h2 {
     font-size: 22px; }
   img, .photos, .photo_text {

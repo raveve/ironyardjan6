@@ -100,19 +100,20 @@ nav ul {
   padding: 0;
 }
 
-nav li {
-  display: inline;
-  padding: 20px;
+nav {
+  li {
+    display: inline;
+    padding: 20px;
+  }
 
-}
+  a {
+    color: $rock-blue;
+    text-decoration: none;
+  }
 
-nav a {
-  color: $rock-blue;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: $gin-fizz;
+  a:hover {
+    color: $gin-fizz;
+  }
 }
 
 .current_link a {
@@ -186,16 +187,18 @@ h1 {
   margin: 0;
 }
 
-nav li {
-  font-size: 12px;
-  padding: 2px;
-  margin: 0px;
-}
+nav {
+  li {
+    font-size: 12px;
+    padding: 2px;
+    margin: 0px;
+  }
 
-nav ul {
-  margin-top: -25px;
-  margin-left: 0px;
-  padding-left: 0px;
+  ul {
+    margin-top: -25px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 }
 
 /*******************************
@@ -208,17 +211,19 @@ TINY MEDIA QUERY
     font-size: 24px;
   }
 
-  nav li {
+  nav {
+    li {
     padding: 1px;
   }
+
+  ul {
+    font-size: 16px;
+  }
+}
 
   nav {
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-
-  nav ul {
-    font-size: 16px;
   }
 
   h2 {
@@ -241,7 +246,6 @@ TINY MEDIA QUERY
     font-size: 10px;
   }
 
-
 }
 
 
@@ -256,18 +260,21 @@ TINY MEDIA QUERY
     font-size: 24px;
   }
 
-  nav li {
+  nav {
+    li {
     padding: 1px;
   }
+
+  ul {
+    font-size: 18px;
+  }
+}
 
   nav {
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
-  nav ul {
-    font-size: 18px;
-  }
 
   h2 {
     font-size: 20px;
@@ -289,7 +296,6 @@ TINY MEDIA QUERY
     font-size: 12px;
   }
 
-
 }
 
 /*******************************
@@ -303,17 +309,19 @@ TINY MEDIA QUERY
     font-size: 32px;
   }
 
-  nav li {
+  nav {
+    li {
     padding: 2px;
   }
+
+    ul {
+    font-size: 24px;
+  }
+}
 
   nav {
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-
-  nav ul {
-    font-size: 24px;
   }
 
   h2 {
@@ -349,17 +357,19 @@ TINY MEDIA QUERY
     font-size: 26px;
   }
 
-  nav li {
+  nav {
+    li {
     padding: 2px;
   }
+
+  ul {
+    font-size: 20px;
+  }
+}
 
   nav {
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-
-  nav ul {
-    font-size: 20px;
   }
 
   h2 {
