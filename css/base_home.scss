@@ -21,6 +21,12 @@ $body-font: 'Josefin Sans', sans-serif;
   margin-right: $marginR;
 }
 
+@mixin h2 ($fonts: 22px, $talign: center, $margint: 20px) {
+  font-size: $fonts;
+  text-align: $talign;
+  margin-top: $margint;
+}
+
 /*******************************
 BODY
 ********************************/
@@ -32,9 +38,7 @@ body {
 }
 
 h2 {
-  font-size: 22px;
-  text-align: center;
-  margin-top: 20px;
+  @include h2();
 }
 
 p {
