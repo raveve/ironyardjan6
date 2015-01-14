@@ -1,0 +1,260 @@
+/*******************************
+BODY
+********************************/
+body {
+  background-color: #33332D;
+  color: #9FB4CC;
+  font-family: 'Josefin Sans', sans-serif; }
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px; }
+
+p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 20px; }
+
+a {
+  text-decoration: none;
+  color: #9FB4CC; }
+
+p > a {
+  font-style: italic; }
+
+a:hover {
+  color: #FFF8E3; }
+
+img, .photo_text {
+  border-radius: 100%;
+  width: 250px;
+  height: auto; }
+
+.photo_text p {
+  font-size: 18px;
+  line-height: 1.2; }
+
+.photos {
+  display: inline-block;
+  margin: 20px 20px 60px 20px; }
+
+.photo_box {
+  margin-left: 275px;
+  margin-top: 50px;
+  margin-right: 150px; }
+
+.photos p {
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center; }
+
+/*******************************
+HEADER
+********************************/
+h1 {
+  color: #DB4105;
+  font-size: 64px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto; }
+
+/*******************************
+NAVIGATION
+********************************/
+nav ul {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Pacifico', cursive;
+  margin: 0 auto;
+  padding: 0; }
+
+nav li {
+  display: inline;
+  padding: 20px; }
+
+nav a {
+  color: #9FB4CC;
+  text-decoration: none; }
+
+nav a:hover {
+  color: #FFF8E3; }
+
+.current_link a {
+  color: #DB4105; }
+
+.border_bottom {
+  border-bottom: 4px double #CCCC9E;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/*******************************
+FOOTER
+********************************/
+footer {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+footer p {
+  color: #CCCC9E;
+  font-style: italic;
+  font-size: 12px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center; }
+
+/*******************************
+HOUSTON LANDING LAYOUT MOD
+********************************/
+img {
+  border-radius: 10%;
+  max-width: 100%;
+  display: inline-block; }
+
+.photos {
+  margin: 0; }
+
+.photo_box {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 0px;
+  margin-bottom: 50px; }
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0px; }
+
+.houston-text {
+  width: 80%;
+  margin-left: 15%;
+  margin-right: 10%; }
+
+.photo_text {
+  display: inline-block;
+  width: 35%;
+  margin: 5%; }
+
+nav {
+  margin-top: 100px; }
+
+/*******************************
+TINY MEDIA QUERY
+********************************/
+@media screen and (max-width: 319px) {
+  h1 {
+    font-size: 50px; }
+  .photo_text {
+    width: 80%; }
+  .photo_text p {
+    font-size: 14px; }
+  nav {
+    margin-top: 50px; }
+  nav ul {
+    font-size: 20px; }
+  nav li {
+    padding: 5px; }
+  footer p {
+    font-size: 10px; } }
+
+/*******************************
+300PX MEDIA QUERY
+********************************/
+@media screen and (min-width: 300px) and (max-width: 479px) {
+  h1 {
+    font-size: 54px; }
+  .photo_box {
+    margin-left: 25%; }
+  .photo_text {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%; }
+  .photo_text p {
+    font-size: 16px; }
+  nav {
+    margin-top: 50px; }
+  nav ul {
+    font-size: 22px; }
+  nav li {
+    padding: 5px; }
+  footer p {
+    font-size: 12px; } }
+
+/*******************************
+480PX MEDIA QUERY
+********************************/
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  h1 {
+    font-size: 56px; }
+  .photo_box {
+    margin-left: 32%; }
+  .photo_text {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%; }
+  .photo_text p {
+    font-size: 16px; }
+  nav {
+    margin-top: 50px; }
+  nav ul {
+    font-size: 24px; }
+  nav li {
+    padding: 5px; }
+  footer p {
+    font-size: 12px; } }
+
+/*******************************
+600PX MEDIA QUERY
+********************************/
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  h1 {
+    font-size: 58px; }
+  .photo_box {
+    margin-left: 32%; }
+  .photo_text {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%; }
+  .photo_text p {
+    font-size: 18px; }
+  nav {
+    margin-top: 50px; }
+  nav ul {
+    font-size: 24px; }
+  nav li {
+    padding: 5px; }
+  footer p {
+    font-size: 14px; } }
+
+/*******************************
+768PX MEDIA QUERY
+********************************/
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .houston-text {
+    margin-left: 10%; } }
+
+/*******************************
+800PX MEDIA QUERY
+********************************/
+@media screen and (min-width: 800px) and (max-width: 1025px) {
+  .houston-text {
+    margin-left: 5%; } }
+
+/*******************************
+1026PX MEDIA QUERY
+********************************/
+@media screen and (min-width: 1026px) {
+  .photo_box {
+    margin-left: 15%;
+    margin-right: 10%;
+    max-width: 80%; } }
