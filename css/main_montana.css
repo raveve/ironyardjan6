@@ -42,16 +42,15 @@ img, .photo_text {
 .photos {
   display: inline-block;
   margin: 20px 20px 60px 20px; }
+  .photos p {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center; }
 
 .photo_box {
   margin-left: 275px;
   margin-top: 50px;
   margin-right: 150px; }
-
-.photos p {
-  margin-left: 0px;
-  margin-right: 0px;
-  text-align: center; }
 
 /*******************************
 HEADER
