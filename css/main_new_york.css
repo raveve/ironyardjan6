@@ -117,8 +117,8 @@ NEW YORK TWO COLUMN LAYOUT MOD
 .photos {
   display: inline-block;
   width: 40%;
-  margin-right: 10%;
   margin-left: 10%;
+  margin-right: 10%;
   margin: 0 auto;
   margin-bottom: 30px; }
 
@@ -134,8 +134,8 @@ img {
 
 img, .photos p {
   width: 80%;
-  margin-right: 10%;
-  margin-left: 10%; }
+  margin-left: 10%;
+  margin-right: 10%; }
 
 h1 {
   font-size: 32px;

@@ -16,6 +16,11 @@ $body-font: 'Josefin Sans', sans-serif;
   padding-bottom: 20px;
 }
 
+@mixin marginLR ($marginL: 10%, $marginR: 10%) {
+  margin-left: $marginL;
+  margin-right: $marginR;
+}
+
 /*******************************
 BODY
 ********************************/
@@ -128,8 +133,7 @@ nav {
 .border_bottom {
   border-bottom: 4px double $chino;
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  @include marginLR();
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -141,8 +145,7 @@ FOOTER
 footer {
   margin: 0 auto;
   margin-top: 100px;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
 }
 
 
@@ -150,8 +153,7 @@ footer p {
   color: $chino;
   font-style: italic;
   font-size: 12px;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
   text-align: center;
 }
 
@@ -169,21 +171,18 @@ footer p {
 
 .photo_box {
   width: 80%;
-  margin-left: 10%;
+  @include marginLR();
   margin-top: 50px;
-  margin-right: 10%;
 }
 
 img, .photos p {
   width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  @include marginLR();
 }
 
 nav ul {
   width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
 }
 
 nav {
@@ -224,8 +223,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, .photos, .photo_text {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {
@@ -272,8 +270,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, .photos, .photo_text {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {
@@ -320,8 +317,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, .photos, .photo_text {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {
@@ -368,8 +364,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, .photos, .photo_text {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {
@@ -416,8 +411,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, .photos, .photo_text {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {

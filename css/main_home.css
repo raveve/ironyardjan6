@@ -86,10 +86,10 @@ nav a:hover {
   color: #DB4105; }
 
 .border_bottom {
-  border-bottom: 4px double #CCCC9E;
-  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  border-bottom: 4px double #CCCC9E;
+  width: 80%;
   padding-top: 10px;
   padding-bottom: 10px; }
 

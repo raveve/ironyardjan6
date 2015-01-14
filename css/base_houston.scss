@@ -16,6 +16,11 @@ $body-font: 'Josefin Sans', sans-serif;
   padding-bottom: 20px;
 }
 
+@mixin marginLR ($marginL: 10%, $marginR: 10%) {
+  margin-left: $marginL;
+  margin-right: $marginR;
+}
+
 /*******************************
 BODY
 ********************************/
@@ -33,7 +38,7 @@ h2 {
 }
 
 p {
-  @include bodyP();b
+  @include bodyP();
 }
 
 a {
@@ -128,8 +133,7 @@ nav {
 .border_bottom {
   border-bottom: 4px double $chino;
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  @include marginLR();
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -150,8 +154,7 @@ footer p {
   color: $chino;
   font-style: italic;
   font-size: 12px;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
   text-align: center;
 }
 
@@ -170,8 +173,7 @@ img {
 }
 
 .photo_box {
-  margin-left: 15%;
-  margin-right: 10%;
+  @include marginLR(15%, 10%);
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -184,8 +186,7 @@ h1 {
 
 .houston-text {
   width: 80%;
-  margin-left: 15%;
-  margin-right: 10%;
+  @include marginLR(15%, 10%);
 }
 
 .photo_text {
@@ -252,8 +253,7 @@ TINY MEDIA QUERY
 
   .photo_text {
     width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+    @include marginLR();
   }
 
   .photo_text p {
@@ -297,8 +297,7 @@ TINY MEDIA QUERY
 
   .photo_text {
     width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+    @include marginLR();
   }
 
   .photo_text p {
@@ -342,8 +341,7 @@ TINY MEDIA QUERY
 
   .photo_text {
     width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+    @include marginLR();
   }
 
   .photo_text p {
@@ -404,8 +402,7 @@ TINY MEDIA QUERY
 @media screen and (min-width: 1026px) {
 
   .photo_box {
-    margin-left: 15%;
-    margin-right: 10%;
+    @include marginLR(15%, 10%);
     max-width: 80%;
   }
 }

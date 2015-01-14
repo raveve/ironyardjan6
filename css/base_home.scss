@@ -16,6 +16,11 @@ $body-font: 'Josefin Sans', sans-serif;
   padding-bottom: 20px;
 }
 
+@mixin marginLR ($marginL: 10%, $marginR: 10%) {
+  margin-left: $marginL;
+  margin-right: $marginR;
+}
+
 /*******************************
 BODY
 ********************************/
@@ -125,10 +130,9 @@ nav {
 }
 
 .border_bottom {
+  @include marginLR();
   border-bottom: 4px double $chino;
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -140,8 +144,7 @@ FOOTER
 footer {
   margin: 0 auto;
   margin-top: 100px;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
 }
 
 
@@ -149,8 +152,7 @@ footer p {
   color: $chino;
   font-style: italic;
   font-size: 12px;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
   text-align: center;
 }
 
@@ -164,8 +166,7 @@ img, .photo_text {
 }
 
 .photo_box, img, .photos p {
-  margin-left: 15%;
-  margin-right: 15%;
+  @include marginLR(15%, 15%);
 }
 
 .aubie {
@@ -205,8 +206,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, img, .photos p {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {
@@ -249,8 +249,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, img, .photos p {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {
@@ -296,8 +295,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, img, .photos p {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {
@@ -341,8 +339,7 @@ TINY MEDIA QUERY
   }
 
   .photo_box, img, .photos p {
-    margin-left: 10%;
-    margin-right: 10%;
+    @include marginLR();
   }
 
   .photos p {

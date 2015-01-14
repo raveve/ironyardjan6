@@ -16,6 +16,11 @@ $body-font: 'Josefin Sans', sans-serif;
   padding-bottom: 20px;
 }
 
+@mixin marginLR ($marginL: 10%, $marginR: 10%) {
+  margin-left: $marginL;
+  margin-right: $marginR;
+}
+
 /*******************************
 BODY
 ********************************/
@@ -127,8 +132,7 @@ nav {
 .border_bottom {
   border-bottom: 4px double $chino;
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  @include marginLR();
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -140,8 +144,7 @@ FOOTER
 footer {
   margin: 0 auto;
   margin-top: 100px;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
 }
 
 
@@ -149,8 +152,7 @@ footer p {
   color: $chino;
   font-style: italic;
   font-size: 12px;
-  margin-left: 20%;
-  margin-right: 20%;
+  @include marginLR(20%, 20%);
   text-align: center;
 }
 
@@ -162,8 +164,7 @@ NEW YORK TWO COLUMN LAYOUT MOD
 .photos {
   display: inline-block;
   width: 40%;
-  margin-right: 10%;
-  margin-left: 10%;
+  @include marginLR();
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -175,15 +176,13 @@ img {
 .photo_box {
   margin: 0;
   width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  @include marginLR();
   margin-top: 50px;
 }
 
 img, .photos p {
   width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  @include marginLR();
 }
 
 h1 {
